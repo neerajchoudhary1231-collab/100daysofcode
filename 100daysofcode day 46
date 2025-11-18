@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char str[200], result[200];
+    int i = 0, j = 0;
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    while (str[i] != '\0') {
+        char c = tolower(str[i]);
+        if (c!='a' && c!='e' && c!='i' && c!='o' && c!='u') {
+            result[j++] = str[i];
+        }
+        i++;
+    }
+
+    result[j] = '\0';
+    printf("String without vowels: %s", result);
+
+    return 0;
+}
