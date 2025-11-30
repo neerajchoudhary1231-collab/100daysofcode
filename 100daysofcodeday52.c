@@ -4,7 +4,7 @@
 // Print -1 if no such element exists.
 // In case of multiple occurrences, print the index of the first one.
 */
-// tanaysah 
+//neeraj 
 
 #include <stdio.h>
 
