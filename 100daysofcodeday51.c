@@ -3,7 +3,7 @@
 // Print the first and last occurrence index of the target.
 // If target is not present, print -1 -1.
 */
-// tanaysah 
+//neeraj 
 
 #include <stdio.h>
 
